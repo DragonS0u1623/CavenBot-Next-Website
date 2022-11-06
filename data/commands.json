@@ -1,0 +1,470 @@
+{
+    "groups": [
+        {
+            "name": "Actions",
+            "commands": [
+                {
+                    "name": "beers",
+                    "id": "",
+                    "description": "Sends an embed with a gif of cheers",
+                    "usage": "beers"
+                },
+                {
+                    "name": "beg",
+                    "id": "",
+                    "description": "Sends a random gif of someone begging",
+                    "usage": "beg"
+                },
+                {
+                    "name": "bite",
+                    "id": "",
+                    "description": "Sends a random gif of someone being bitten",
+                    "usage": "bite"
+                },
+                {
+                    "name": "cake",
+                    "id": "",
+                    "description": "Sends a random gif of cake",
+                    "usage": "cake"
+                },
+                {
+                    "name": "cookie",
+                    "id": "",
+                    "description": "Gives a cookie to someone",
+                    "usage": "cookie"
+                },
+                {
+                    "name": "cuddle",
+                    "id": "",
+                    "description": "Sends a random gif of someone being cuddled",
+                    "usage": "cuddle"
+                },
+                {
+                    "name": "gif",
+                    "id": "",
+                    "description": "Finds a random gif with the given search term",
+                    "usage": "gif [search term]"
+                },
+                {
+                    "name": "glare",
+                    "id": "",
+                    "description": "Sends a random gif of someone glaring",
+                    "usage": "glare"
+                },
+                {
+                    "name": "highfive",
+                    "id": "",
+                    "description": "Sends a random gif of a high five",
+                    "usage": "highfive"
+                },
+                {
+                    "name": "hug",
+                    "id": "",
+                    "description": "Sends a random gif of someone being hugged",
+                    "usage": "hug"
+                },
+                {
+                    "name": "kiss",
+                    "id": "",
+                    "description": "Sends a random gif of someone being kissed",
+                    "usage": "kiss"
+                },
+                {
+                    "name": "lick",
+                    "id": "",
+                    "description": "Sends a random gif of someone being licked",
+                    "usage": "lick"
+                },
+                {
+                    "name": "muffin_button",
+                    "id": "",
+                    "aliases": [ "mb" ],
+                    "description": "Sends a DBZA meme of the muffin button",
+                    "usage": "muffin_button"
+                },
+                {
+                    "name": "pat",
+                    "id": "",
+                    "description": "Sends a random gif of someone being pat",
+                    "usage": "pat"
+                },
+                {
+                    "name": "poke",
+                    "id": "",
+                    "description": "Sends a random gif of someone being poked",
+                    "usage": "poke"
+                },
+                {
+                    "name": "punch",
+                    "id": "",
+                    "description": "Sends a random gif of someone being punched",
+                    "usage": "punch"
+                },
+                {
+                    "name": "sass",
+                    "id": "",
+                    "description": "Sends a random gif of someone being sassy",
+                    "usage": "sass"
+                },
+                {
+                    "name": "shank",
+                    "id": "",
+                    "aliases": [ "stab", "kill" ],
+                    "description": "Sends a random gif of someone being stabbed",
+                    "usage": "shank"
+                },
+                {
+                    "name": "slap",
+                    "id": "",
+                    "description": "Sends a random gif of someone being slapped",
+                    "usage": "slap"
+                }
+            ]
+        },
+        {
+            "name": "Anon",
+            "commands": [
+                {
+                    "name": "blacklist",
+                    "description": "Blacklists the channel or the user from using anon commands",
+                    "usage": "blacklist [channel/user]"
+                },
+                {
+                    "name": "send",
+                    "description": "Sends a message anonymously in the given channel",
+                    "usage": "send [guild] [channel] [message]"
+                },
+                {
+                    "name": "whitelist",
+                    "description": "Whitelists the channel or the user from using anon commands",
+                    "usage": "whitelist [channel/user]"
+                }
+            ]
+        },
+        {
+            "name": "Language",
+            "commands": [
+                {
+                    "name": "language",
+                    "description": "Sets the language for either the user or the guild.\nValid languages are:\n",
+                    "subcommands": [
+                        {
+                            "name": "guild",
+                            "id": "",
+                            "usage": "language guild [lang]"
+                        },
+                        {
+                            "name": "user",
+                            "id": "",
+                            "usage": "language user [lang]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Misc",
+            "commands": [
+                {
+                    "name": "define",
+                    "id": "",
+                    "description": "Gets a definition for the given word and a couple of synonyms",
+                    "usage": "define [word]"
+                },
+                {
+                    "name": "dice",
+                    "id": "",
+                    "aliases": [ "d" ],
+                    "description": "Rolls a dice with the amount of sides given. Default is a normal 6-sided dice",
+                    "usage": "dice <sides>"
+                },
+                {
+                    "name": "general_kenobi",
+                    "id": "",
+                    "aliases": [
+                        "gk",
+                        "general",
+                        "kenobi",
+                        "general kenobi"
+                    ],
+                    "description": "Sends a gif from Star Wars",
+                    "usage": "general_kenobi"
+                },
+                {
+                    "name": "hello_there",
+                    "id": "",
+                    "aliases": [
+                        "hello",
+                        "hello there"
+                    ],
+                    "description": "Sends an embed with a Star Wars gif on it",
+                    "usage": "hello_there"
+                },
+                {
+                    "name": "invite",
+                    "id": "",
+                    "description": "Sends the user an embed with an invite link. Please add me to all your favourite servers",
+                    "usage": "invite"
+                },
+                {
+                    "name": "joke",
+                    "id": "",
+                    "description": "Sends a random joke to the chat",
+                    "usage": "joke"
+                },
+                {
+                    "name": "meme",
+                    "id": "",
+                    "description": "Sends a random meme",
+                    "usage": "meme"
+                },
+                {
+                    "name": "nani",
+                    "id": "",
+                    "description": "Sends an anime joke response",
+                    "usage": "nani"
+                },
+                {
+                    "name": "omae",
+                    "id": "",
+                    "description": "Gives an anime joke",
+                    "usage": "omae"
+                },
+                {
+                    "name": "pfp",
+                    "id": "",
+                    "description": "Sends an embed with the user's pfp along with a clickable link to it",
+                    "usage": "pfp <user>"
+                },
+                {
+                    "name": "prefix",
+                    "id": "",
+                    "description": "Changes the prefix for the guild",
+                    "usage": "prefix [new prefix]"
+                },
+                {
+                    "name": "support",
+                    "id": "",
+                    "description": "Sends an embed with the invite link to the official support server",
+                    "usage": "support"
+                }
+            ]
+        },
+        {
+            "name": "Moderation",
+            "commands": [
+                {
+                    "name": "ban",
+                    "id": "1006164089732603968",
+                    "description": "Bans the user from the server",
+                    "usage": "ban [user] <reason>"
+                },
+                {
+                    "name": "audit",
+                    "id": "1006164089732603967",
+                    "description": "Sets the channel to send audit log data",
+                    "usage": "channel [channel]"
+                },
+                {
+                    "name": "clear",
+                    "id": "",
+                    "description": "Clears the specified amount of messages from the channel. Default is 5",
+                    "usage": "clear <amount>"
+                },
+                {
+                    "name": "editwelcome",
+                    "id": "",
+                    "description": "Edits the message of the welcome embeds",
+                    "usage": "editwelcome [message]"
+                },
+                {
+                    "name": "info",
+                    "id": "",
+                    "description": "Gives relevant info about the server",
+                    "usage": "info"
+                },
+                {
+                    "name": "kick",
+                    "id": "",
+                    "description": "Kicks the user from the server",
+                    "usage": "kick [user] <reason>"
+                },
+                {
+                    "name": "settings",
+                    "id": "",
+                    "description": "Command to toggle on and off different settings for the bot.\nSettings to change:\n\t`Audits`\n\t`Welcome`",
+                    "usage": "settings [audits|welcome]"
+                },
+                {
+                    "name": "unban",
+                    "id": "",
+                    "description": "Unbans the user from the server. Uses the user ID",
+                    "usage": "unban [user] <reason>"
+                },
+                {
+                    "name": "warn",
+                    "id": "",
+                    "description": "Warns the user with the given reason",
+                    "usage": "warn [user] [reason]"
+                },
+                {
+                    "name": "welcome",
+                    "id": "",
+                    "description": "Sets the channel to send welcome messages",
+                    "usage": "welcome [channel]"
+                }
+            ]
+        },
+        {
+            "name": "Music",
+            "commands": [
+                {
+                    "name": "join",
+                    "id": "",
+                    "aliases": [ "j" ],
+                    "description": "Makes the bot join your current voice channel",
+                    "usage": "join"
+                },
+                {
+                    "name": "leave",
+                    "id": "",
+                    "aliases": [ "l" ],
+                    "description": "Makes the bot leave your current voice channel",
+                    "usage": "leave"
+                },
+                {
+                    "name": "nowplaying",
+                    "id": "",
+                    "aliases": [ "np" ],
+                    "description": "Shows the currently playing song",
+                    "usage": "nowplaying"
+                },
+                {
+                    "name": "pause",
+                    "id": "",
+                    "description": "Pauses the currently playing song",
+                    "usage": "pause"
+                },
+                {
+                    "name": "play",
+                    "id": "",
+                    "aliases": [ "p" ],
+                    "description": "Plays the given song or adds it to the queue if the player is already playing a song",
+                    "usage": "play [url/search term]"
+                },
+                {
+                    "name": "queue",
+                    "id": "",
+                    "aliases": [ "q" ],
+                    "description": "Shows the current queue",
+                    "usage": "queue"
+                },
+                {
+                    "name": "repeat",
+                    "id": "",
+                    "description": "Sets the repeat for the song or queue",
+                    "usage": "repeat [NONE|SONG|QUEUE]"
+                },
+                {
+                    "name": "resume",
+                    "id": "",
+                    "aliases": [ "r" ],
+                    "description": "Makes the bot resume playing the music",
+                    "usage": "resume"
+                },
+                {
+                    "name": "skip",
+                    "id": "",
+                    "aliases": [ "n", "next" ],
+                    "description": "Skips the currently playing song to the next in queue",
+                    "usage": "skip"
+                },
+                {
+                    "name": "stop",
+                    "id": "",
+                    "aliases": [ "s" ],
+                    "description": "Stops the music and clears the queue",
+                    "usage": "stop"
+                },
+                {
+                    "name": "volume",
+                    "id": "",
+                    "aliases": [ "v" ],
+                    "description": "Sets the volume for the music playing",
+                    "usage": "volume [value]"
+                }
+            ]
+        },
+        {
+            "name": "Reminders",
+            "commands": [
+                {
+                    "name": "reminder",
+                    "description": "Shows your reminders or adds/removes one from the list",
+                    "subcommands": [
+                        {
+                            "name": "add",
+                            "id": "",
+                            "description": "Adds a new reminder to the list",
+                            "usage": "reminder add [reminder]"
+                        },
+                        {
+                            "name": "remove",
+                            "id": "",
+                            "description": "Removes the reminder from the list",
+                            "usage": "reminder remove [num]"
+                        },
+                        {
+                            "name": "view",
+                            "id": "",
+                            "description": "Shows your reminders",
+                            "usage": "reminder view"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Roles",
+            "commands": [
+                {
+                    "name": "joinrole",
+                    "id": "",
+                    "description": "Sets the role to add to newly joined members and enables it. Using this with no role will disable it",
+                    "usage": "joinrole <role>"
+                },
+                {
+                    "name": "reactroles",
+                    "description": "Adds or removes react roles from a specific message",
+                    "aliases": [ "rr", "react" ],
+                    "subcommands": [
+                        {
+                            "name": "add",
+                            "id": "",
+                            "description": "Adds a react role to the given message",
+                            "usage": "reactroles add [channel] [message] [role] [emoji] <toggle>"
+                        },
+                        {
+                            "name": "remove",
+                            "id": "",
+                            "description": "Removes a react role from the given message",
+                            "usage": "reactroles remove [channel] [message] [emoji]"
+                        }
+                    ]
+                },
+                {
+                    "name": "roledm",
+                    "id": "",
+                    "description": "Toggles the DM settings for role reactions. By default this is enabled",
+                    "usage": "roledm"
+                },
+                {
+                    "name": "roletoggle",
+                    "id": "",
+                    "description": "Sets whether roles on this message id toggle on or off",
+                    "usage": "roletoggle [channel] [message]"
+                }
+            ]
+        }
+    ]
+}

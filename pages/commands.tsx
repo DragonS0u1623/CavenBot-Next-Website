@@ -29,7 +29,7 @@ export default function Commands() {
 				</p>
 
                 <div>
-                    {commands.groups.map(group => (<Group group={group} />))}
+                    {commands.groups.map(group => (<Group group={group} key={group.name} />))}
                 </div>
 			</>
 		</div>

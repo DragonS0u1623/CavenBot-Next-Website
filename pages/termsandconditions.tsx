@@ -16,14 +16,14 @@ export default function TermsAndConditions() {
 			<>
 				<h1>Terms and Conditions</h1>
 				<p>
-					Honestly I'm no lawyer, just please use the bot in the way
-					it's intended and not to annoy, bug or harass others
+					Honestly I&apos;m no lawyer, just please use the bot in the way
+					it&apos;s intended and not to annoy, bug or harass others
 				</p>
 				<h1>Privacy Policy</h1>
 				<p>
 					CavenBot only stores minimal data for basic functions. Data
 					stored are discord IDs and user-input values. CavenBot also
-					doesn't collect or store any personal data, or user data.
+					doesn&apos;t collect or store any personal data, or user data.
 				</p>
 			</>
 		</div>

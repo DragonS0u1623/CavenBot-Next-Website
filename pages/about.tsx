@@ -17,7 +17,7 @@ export default function About() {
 				<h1>What is CavenBot?</h1>
 				<p>
 					CavenBot is a multi-purpose discord bot. It runs most core
-					functions off of the Java Discord API (JDA), but it will
+					functions off of discord.js, but it will
 					eventually get an increase in functionality that will let it
 					be integrated with many web APIs like Destiny, and Twitch
 					APIs.
@@ -32,7 +32,7 @@ export default function About() {
 				<br />
 				<h3>About the Creator</h3>
 				<p>
-					Hello! I'm Jordan, the creator of CavenBot and this site! I
+					Hello! I&apos;m Jordan, the creator of CavenBot and this site! I
 					started this bot project as a side project while I was bored
 					in my classes during college. This project was originally a
 					way for me to get used to Python and as a way to get into

@@ -28,7 +28,7 @@ export default function Group(props: any) {
             <h3>{props.group.name}</h3>
             <Row md={2} lg={3} xs={1} className="g-3">
 				{props.group.commands.map((command: Command) => (
-					<Col>
+					<Col key={command.name}>
 						<Card className="shadow-lg">
 							<Card.Body>
 								<Card.Title style={{ color: '#EE0b0b', textAlign: 'center' }}>{command.name}</Card.Title>
@@ -36,7 +36,7 @@ export default function Group(props: any) {
 								<Card.Text>{command.description}</Card.Text>
 								{command.subcommands ? <Card.Text>Subcommands</Card.Text> : null}
 								{command.subcommands ? <ListGroup>{command.subcommands.map(subcommand => (
-									<ListGroup.Item>{subcommand.name}<br/>{subcommand.description}<br/><code>/</code>{subcommand.usage}</ListGroup.Item>
+									<ListGroup.Item key={subcommand.name}>{subcommand.name}<br/>{subcommand.description}<br/><code>/</code>{subcommand.usage}</ListGroup.Item>
 								))}</ListGroup> : null}
 							</Card.Body>
 							{command.usage ? <Card.Footer style={{ textAlign: 'center' }}>{formatUsage(command.usage)}</Card.Footer> : null}
